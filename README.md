@@ -15,7 +15,7 @@ To create your own SHREC14 imagefolder download SHREC14 dataset [here](https://d
 
 # Run
 configuration used to obtain 80.18% accuracy,
-
+```
 python transfer-learn-script.py --batchSize=8 --learning_rate=4e-5 --train_epochs=20 --steplar_stepsize=9 --steplr_gamma=0.1 --smoothing=0.2
-
+```
 
