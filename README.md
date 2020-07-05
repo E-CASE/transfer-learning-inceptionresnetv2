@@ -2,7 +2,7 @@
 
 Transfer learning script for a pre-trained inceptionresnetv2 from [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch), for sketch recognition. Achieved a SHREC14 sketch classification test accuracy of 80.18%, on Pytorch 1.5.1.
 
-Uses a label smoothed cross-entropy loss. 
+Uses a label smoothed cross-entropy loss from [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567). 
 
 # Model
 Download pre-trained weights for inceptionresnetv2.py [here](https://drive.google.com/file/d/1JxG5_qW7Z3owe-xwX3uj71x57vUJCSrf/view?usp=sharing) and store in script directory. 
