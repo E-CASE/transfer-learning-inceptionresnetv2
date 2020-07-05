@@ -9,9 +9,9 @@ Download pre-trained weights for inceptionresnetv2.py [here](https://drive.googl
 
 # Dataset
 
-Uses SHREC14 sketches transformed into an imagefolder structure with no validation set, download SHREC14-imagefolder-no-val [here](https://drive.google.com/file/d/11EEXDuGaX0Rendz3453p9sEdBx758J5e/view?usp=sharing) and store in script directory. 
+Uses SHREC14 sketches transformed into an imagefolder structure with no validation set, download SHREC14-imagefolder-no-val [here](https://drive.google.com/file/d/11EEXDuGaX0Rendz3453p9sEdBx758J5e/view?usp=sharing) unzip and store in script directory. 
 
-To create your own SHREC14 imagefolder download SHREC14 dataset [here](https://drive.google.com/file/d/1XA53BG3oxPvx_0SuipnJjyr_GAJas0lu/view?usp=sharing) and use the script create-shrec-imagefolder.py to customise train, validation, and test split.
+To create your own SHREC14 imagefolder download SHREC14 dataset [here](https://drive.google.com/file/d/1XA53BG3oxPvx_0SuipnJjyr_GAJas0lu/view?usp=sharing) unzip and store in script directory, then use the script create-shrec-imagefolder.py to customise train, validation, and test split.
 
 # Run
 configuration used to obtain 80.18% accuracy,
